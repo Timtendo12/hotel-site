@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <title>hotel-site</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-<p class="hidden">Tailwind does not work yet :(</p>
-<p class="text-lime-400">Green Hello world!</p>
-</body>
-</html>
+<x-header>
+    <x-currency></x-currency>
+</x-header>
+<x-banner></x-banner>
+<x-layout>
+    <p>inside layout</p>
+</x-layout>
